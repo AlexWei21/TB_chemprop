@@ -1,0 +1,109 @@
+2023-04-17 11:25:53,551 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:53,551 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:53,552 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:53,552 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:53,552 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:53,552 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:53,553 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112553-eao1rv5o\logs\debug.log
+2023-04-17 11:25:53,553 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112553-eao1rv5o\logs\debug-internal.log
+2023-04-17 11:25:53,554 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:53,554 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:53,555 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:54,330 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:54,330 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:54,331 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:54,331 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:54,331 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:54,331 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:54,332 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112554-tuu3zohr\logs\debug.log
+2023-04-17 11:25:54,332 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112554-tuu3zohr\logs\debug-internal.log
+2023-04-17 11:25:54,333 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:54,333 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:54,334 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:55,106 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:55,106 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:55,106 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:55,107 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:55,107 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:55,107 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:55,108 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112555-dzdi9xy7\logs\debug.log
+2023-04-17 11:25:55,108 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112555-dzdi9xy7\logs\debug-internal.log
+2023-04-17 11:25:55,109 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:55,109 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:55,110 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:55,878 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:55,879 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:55,879 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:55,879 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:55,880 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:55,880 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:55,880 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112555-a80bihh7\logs\debug.log
+2023-04-17 11:25:55,881 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112555-a80bihh7\logs\debug-internal.log
+2023-04-17 11:25:55,881 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:55,882 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:55,882 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:56,671 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:56,672 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:56,672 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:56,672 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:56,673 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:56,673 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:56,673 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112556-xxhe4asc\logs\debug.log
+2023-04-17 11:25:56,674 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112556-xxhe4asc\logs\debug-internal.log
+2023-04-17 11:25:56,674 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:56,675 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:56,675 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:57,431 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:57,432 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:57,433 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:57,433 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:57,433 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:57,434 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:57,435 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112557-ncjxy395\logs\debug.log
+2023-04-17 11:25:57,435 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112557-ncjxy395\logs\debug-internal.log
+2023-04-17 11:25:57,436 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:57,437 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:57,438 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:58,226 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:58,226 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:58,227 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:58,227 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:58,227 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:58,228 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:58,228 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112558-ohsq215o\logs\debug.log
+2023-04-17 11:25:58,228 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112558-ohsq215o\logs\debug-internal.log
+2023-04-17 11:25:58,229 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:58,229 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:58,230 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:59,021 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:59,021 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:59,022 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:59,022 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:59,022 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:59,023 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:59,023 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112559-jas8n1o9\logs\debug.log
+2023-04-17 11:25:59,023 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112559-jas8n1o9\logs\debug-internal.log
+2023-04-17 11:25:59,024 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:59,025 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:59,025 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:25:59,846 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Configure stats pid to 10816
+2023-04-17 11:25:59,846 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:25:59,846 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:25:59,847 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:25:59,847 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:25:59,847 INFO    MainThread:10816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:25:59,848 INFO    MainThread:10816 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_112559-jlclpenj\logs\debug.log
+2023-04-17 11:25:59,848 INFO    MainThread:10816 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_112559-jlclpenj\logs\debug-internal.log
+2023-04-17 11:25:59,849 INFO    MainThread:10816 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:25:59,849 INFO    MainThread:10816 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:25:59,850 INFO    MainThread:10816 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-17 11:26:18,809 WARNING MsgRouterThr:10816 [router.py:message_loop():77] message_loop has been closed

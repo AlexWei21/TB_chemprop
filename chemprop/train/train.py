@@ -13,7 +13,7 @@ from chemprop.args import TrainArgs
 from chemprop.data import MoleculeDataLoader, MoleculeDataset, AtomBondScaler
 from chemprop.models import MoleculeModel
 from chemprop.nn_utils import compute_gnorm, compute_pnorm, NoamLR
-
+import wandb
 
 def train(
     model: MoleculeModel,
@@ -241,11 +241,18 @@ def train(
             lrs_str = ", ".join(f"lr_{i} = {lr:.4e}" for i, lr in enumerate(lrs))
             debug(f"Loss = {loss_avg:.4e}, PNorm = {pnorm:.4f}, GNorm = {gnorm:.4f}, {lrs_str}")
 
+            ### Added by Ziming Wei
+            wandb.log({'train_loss':loss_avg,
+                       'param_norm':pnorm,
+                       'gradient_norm':gnorm})
+
             if writer is not None:
                 writer.add_scalar("train_loss", loss_avg, n_iter)
                 writer.add_scalar("param_norm", pnorm, n_iter)
                 writer.add_scalar("gradient_norm", gnorm, n_iter)
                 for i, lr in enumerate(lrs):
                     writer.add_scalar(f"learning_rate_{i}", lr, n_iter)
+
+            
 
     return n_iter

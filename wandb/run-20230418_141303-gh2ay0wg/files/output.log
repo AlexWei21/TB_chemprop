@@ -1,0 +1,45 @@
+Fold 0
+Splitting data with seed 0
+Class sizes
+confirmed_hit 0: 93.59%, 1: 6.41%
+Total size = 999 | train size = 799 | val size = 100 | test size = 100
+Building model 0
+MoleculeModel(
+  (sigmoid): Sigmoid()
+  (encoder): MPN(
+    (encoder): ModuleList(
+      (0): MPNEncoder(
+        (dropout): Dropout(p=0.0, inplace=False)
+        (act_func): ReLU()
+        (W_i): Linear(in_features=147, out_features=300, bias=False)
+        (W_h): Linear(in_features=300, out_features=300, bias=False)
+        (W_o): Linear(in_features=433, out_features=300, bias=True)
+      )
+    )
+  )
+  (readout): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 355,201
+  0%|                                                                                           | 0/30 [00:00<?, ?it/s]Epoch 0
+                                                                                                                       Loss = 3.9459e-01, PNorm = 34.0258, GNorm = 0.6065, lr_0 = 4.3000e-04
+  0%|                                                                                           | 0/30 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "F:\TB_chemprop\train.py", line 7, in <module>
+    chemprop_train()
+  File "F:\TB_chemprop\chemprop\train\cross_validate.py", line 220, in chemprop_train
+    cross_validate(args=TrainArgs().parse_args(), train_func=run_training)
+  File "F:\TB_chemprop\chemprop\utils.py", line 591, in wrap
+    result = func(*args, **kwargs)
+  File "F:\TB_chemprop\chemprop\train\cross_validate.py", line 130, in cross_validate
+    model_scores = train_func(args, data, logger)
+  File "F:\TB_chemprop\chemprop\train\run_training.py", line 297, in run_training
+    n_iter = train(
+  File "F:\TB_chemprop\chemprop\train\train.py", line 248, in train
+    'learning_rate':lr})
+UnboundLocalError: local variable 'lr' referenced before assignment

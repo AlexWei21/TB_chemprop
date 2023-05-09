@@ -25,6 +25,8 @@ from chemprop.nn_utils import param_count, param_count_all
 from chemprop.utils import build_optimizer, build_lr_scheduler, load_checkpoint, makedirs, \
     save_checkpoint, save_smiles_splits, load_frzn_model, multitask_mean
 
+import wandb
+
 
 def run_training(args: TrainArgs,
                  data: MoleculeDataset,
@@ -323,6 +325,9 @@ def run_training(args: TrainArgs,
                 debug(f'Validation {metric} = {mean_val_score:.6f}')
                 writer.add_scalar(f'validation_{metric}', mean_val_score, n_iter)
 
+                wandb.log({f'validation_{metric}':mean_val_score
+                           })
+
                 if args.show_individual_scores:
                     # Individual validation scores
                     for task_name, val_score in zip(args.task_names, scores):
@@ -374,11 +379,14 @@ def run_training(args: TrainArgs,
                 info(f'Model {model_idx} test {metric} = {avg_test_score:.6f}')
                 writer.add_scalar(f'test_{metric}', avg_test_score, 0)
 
+                wandb.log({f'test_{metric}':avg_test_score})
+
                 if args.show_individual_scores and args.dataset_type != 'spectra':
                     # Individual test scores
                     for task_name, test_score in zip(args.task_names, scores):
                         info(f'Model {model_idx} test {task_name} {metric} = {test_score:.6f}')
                         writer.add_scalar(f'test_{task_name}_{metric}', test_score, n_iter)
+
         writer.close()
 
     # Evaluate ensemble on test set

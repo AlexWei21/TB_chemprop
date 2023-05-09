@@ -9,6 +9,7 @@ from .molecule_fingerprint import chemprop_fingerprint, model_fingerprint
 from .predict import predict
 from .run_training import run_training
 from .train import train
+from .pre_training import pretrain
 
 __all__ = [
     'chemprop_train',
@@ -43,5 +44,6 @@ __all__ = [
     'mcc_class_loss',
     'mcc_multiclass_loss',
     'sid_loss',
-    'wasserstein_loss'
+    'wasserstein_loss',
+    'pretrain'
 ]

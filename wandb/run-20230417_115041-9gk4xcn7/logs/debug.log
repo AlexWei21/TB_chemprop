@@ -1,0 +1,52 @@
+2023-04-17 11:50:41,209 INFO    MainThread:380 [wandb_setup.py:_flush():76] Configure stats pid to 380
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_115041-9gk4xcn7\logs\debug.log
+2023-04-17 11:50:41,210 INFO    MainThread:380 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_115041-9gk4xcn7\logs\debug-internal.log
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_init.py:init():571] re-initializing run, found existing run on stack: k5xmtbng
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_run.py:_finish():1892] finishing run tb_inhibition/tb_inhibition/k5xmtbng
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_run.py:_atexit_cleanup():2126] got exitcode: 0
+2023-04-17 11:50:41,211 INFO    MainThread:380 [wandb_run.py:_restore():2109] restore
+2023-04-17 11:50:41,212 INFO    MainThread:380 [wandb_run.py:_restore():2115] restore done
+2023-04-17 11:50:44,658 INFO    MainThread:380 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-17 11:50:44,659 INFO    MainThread:380 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-17 11:50:44,662 INFO    MainThread:380 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-17 11:50:44,702 INFO    MainThread:380 [wandb_init.py:init():595] starting backend
+2023-04-17 11:50:44,702 INFO    MainThread:380 [wandb_init.py:init():599] setting up manager
+2023-04-17 11:50:44,708 INFO    MainThread:380 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-04-17 11:50:44,710 INFO    MainThread:380 [wandb_init.py:init():605] backend started and connected
+2023-04-17 11:50:44,712 INFO    MainThread:380 [wandb_init.py:init():695] updated telemetry
+2023-04-17 11:50:44,749 INFO    MainThread:380 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-17 11:50:46,009 INFO    MainThread:380 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-17 11:50:46,200 INFO    MainThread:380 [wandb_run.py:_on_init():2185] got version response 
+2023-04-17 11:50:46,200 INFO    MainThread:380 [wandb_init.py:init():782] starting run threads in backend
+2023-04-17 11:50:48,835 INFO    MainThread:380 [wandb_run.py:_console_start():2157] atexit reg
+2023-04-17 11:50:48,835 INFO    MainThread:380 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-04-17 11:50:48,835 INFO    MainThread:380 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-04-17 11:50:48,835 INFO    MainThread:380 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-04-17 11:50:48,836 INFO    MainThread:380 [wandb_init.py:init():824] run started, returning control to user process
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Configure stats pid to 380
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Ziming Wei\.config\wandb\settings
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from F:\TB_chemprop\wandb\settings
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-17 11:51:12,846 INFO    MainThread:380 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'F:\\TB_chemprop\\train.py'}
+2023-04-17 11:51:12,847 INFO    MainThread:380 [wandb_init.py:_log_setup():507] Logging user logs to F:\TB_chemprop\wandb\run-20230417_115112-4lhbyads\logs\debug.log
+2023-04-17 11:51:12,847 INFO    MainThread:380 [wandb_init.py:_log_setup():508] Logging internal logs to F:\TB_chemprop\wandb\run-20230417_115112-4lhbyads\logs\debug-internal.log
+2023-04-17 11:51:12,847 INFO    MainThread:380 [wandb_init.py:init():547] calling init triggers
+2023-04-17 11:51:12,847 INFO    MainThread:380 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-17 11:51:12,847 INFO    MainThread:380 [wandb_init.py:init():571] re-initializing run, found existing run on stack: 9gk4xcn7
+2023-04-17 11:51:12,848 INFO    MainThread:380 [wandb_run.py:_finish():1892] finishing run tb_inhibition/tb_inhibition/9gk4xcn7
+2023-04-17 11:51:12,848 INFO    MainThread:380 [wandb_run.py:_atexit_cleanup():2126] got exitcode: 0
+2023-04-17 11:51:12,848 INFO    MainThread:380 [wandb_run.py:_restore():2109] restore
+2023-04-17 11:51:12,848 INFO    MainThread:380 [wandb_run.py:_restore():2115] restore done
+2023-04-17 11:51:16,366 INFO    MainThread:380 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-17 11:51:16,367 INFO    MainThread:380 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-17 11:51:16,371 INFO    MainThread:380 [wandb_run.py:_footer_sync_info():3434] logging synced files

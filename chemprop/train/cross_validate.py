@@ -16,6 +16,7 @@ from chemprop.constants import TEST_SCORES_FILE_NAME, TRAIN_LOGGER_NAME
 from chemprop.data import get_data, get_task_names, MoleculeDataset, validate_dataset_type
 from chemprop.utils import create_logger, makedirs, timeit, multitask_mean
 from chemprop.features import set_extra_atom_fdim, set_extra_bond_fdim, set_explicit_h, set_adding_hs, set_keeping_atom_map, set_reaction, reset_featurization_parameters
+import wandb
 
 
 @timeit(logger_name=TRAIN_LOGGER_NAME)
@@ -33,6 +34,9 @@ def cross_validate(args: TrainArgs,
     :param train_func: Function which runs training.
     :return: A tuple containing the mean and standard deviation performance across folds.
     """
+    
+    ## print("Successfully enter the cross_validate class!")
+    
     logger = create_logger(name=TRAIN_LOGGER_NAME, save_dir=args.save_dir, quiet=args.quiet)
     if logger is not None:
         debug, info = logger.debug, logger.info
@@ -102,6 +106,15 @@ def cross_validate(args: TrainArgs,
     # Run training on different random seeds for each fold
     all_scores = defaultdict(list)
     for fold_num in range(args.num_folds):
+
+        ### Added by Ziming on Apr 17, 2023
+        wandb.init(
+            reinit=True,
+            project = 'tb_inhibition',
+            group = "DMPNN_1",
+            job_type = "eval"
+        )
+
         info(f'Fold {fold_num}')
         args.seed = init_seed + fold_num
         args.save_dir = os.path.join(save_dir, f'fold_{fold_num}')
@@ -205,4 +218,5 @@ def chemprop_train() -> None:
 
     This is the entry point for the command line command :code:`chemprop_train`.
     """
+
     cross_validate(args=TrainArgs().parse_args(), train_func=run_training)

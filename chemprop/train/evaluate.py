@@ -37,6 +37,10 @@ def evaluate_predictions(preds: List[List[float]],
 
     metric_to_func = {metric: get_metric_func(metric) for metric in metrics}
 
+    ###
+    for metric in metrics:
+        print(metric)
+
     if len(preds) == 0:
         return {metric: [float('nan')] * num_tasks for metric in metrics}
     

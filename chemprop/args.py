@@ -303,7 +303,7 @@ class TrainArgs(CommonArgs):
     Metric to use during evaluation. It is also used with the validation set for early stopping.
     Defaults to "auc" for classification, "rmse" for regression, and "sid" for spectra.
     """
-    extra_metrics: List[Metric] = []
+    extra_metrics: List[Metric] = ['binary_cross_entropy']
     """Additional metrics to use to evaluate the model. Not used for early stopping."""
     save_dir: str = None
     """Directory where model checkpoints will be saved."""
